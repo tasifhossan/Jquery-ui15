@@ -1,0 +1,103 @@
+#drag{
+ width: 150px; 
+ height: 150px;
+ padding: 0.5em; 
+ background-color: pink;
+}
+/*droppable*/
+.ovrflow{
+	overflow: hidden;
+}
+#draggable { 
+	width: 100px; 
+	height: 100px; 
+	padding: 0.5em; 
+	float: left;
+	margin: 10px 10px 10px 0; 
+}
+  #droppable { 
+  	width: 150px; 
+  	height: 150px; 
+  	padding: 0.5em; 
+  	 float: left; 
+  	margin: 10px; 
+  }
+ /*selectable*/
+ #feedback { 
+ 	font-size: 18px; 
+ }
+  #select .ui-selecting { 
+  	background: #FECA40; 
+  }
+  #select .ui-selected { 
+  	background: #F39814; 
+  	/*color: white;*/ 
+  }
+  #select { 
+  	list-style-type: none; 
+  	margin: 0; 
+  	padding: 0; 
+  	width: 60%; }
+  #select li { 
+  	text-align: center;
+  	margin: 5px; 
+  	padding: 20px; 
+  	font-size: 18px; 
+  	height: 15px; }
+  /*shortable*/
+  #sort { 
+  	list-style-type: none; 
+  	margin: 0; 
+  	padding: 0; 
+  	width: 60%; 
+  }
+  #sort li { 
+  	margin: 0 3px 3px 3px; 
+  	padding-left: 1.5em; 
+  	font-size: 18px; 
+  	height: 30px; }
+  #sort li span { 
+  	position: absolute; 
+  	margin-left: -1.3em; }
+  	.ui-icon, .ui-widget-content .ui-icon {
+    margin-top: 6px !important;
+}
+/*autocomplte*/
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+  }
+  /*selectbar*/
+  .fld {
+      border: 0;
+      margin-left: 300px;
+    }
+    .lbl {
+      display: block;
+      margin: 20px 0 0 0;
+    }
+ 
+    #circle {
+      float: left;
+      background: yellow;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+
+/*tooltip*/
+.label {
+    display: inline-block;
+    width: 5em;
+  }
